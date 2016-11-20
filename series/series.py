@@ -1,10 +1,3 @@
-
-try:
-    from functools import reduce  # py3
-except ImportError as e:
-    pass  # py2
-
-
 def slices(S, n):
 
     S_len = len(S)
